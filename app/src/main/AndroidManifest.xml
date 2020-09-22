@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.holacorona.cachureitos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".listaModificarArticulos"
+            android:label="Mis artículos"></activity>
+        <activity
+            android:name=".seleccionArticulo"
+            android:label="Detalle"></activity>
+        <activity
+            android:name=".vistaObjetos"
+            android:label="Resultados" />
+        <activity
+            android:name=".buscar"
+            android:label="Buscar objetos" />
+        <activity
+            android:name=".cambioClave"
+            android:label="Modificar contraseña" />
+        <activity
+            android:name=".ingresoArticulos"
+            android:label="Ingreso artículos" />
+        <activity
+            android:name=".eliminarArticulos"
+            android:label="Eliminar artículo" />
+        <activity
+            android:name=".mArticulos"
+            android:label="Modificar atículo" />
+        <activity
+            android:name=".articuloCero"
+            android:label="Detalle" />
+        <activity
+            android:name=".MisArticulos"
+            android:label="Mis artículos" />
+        <activity
+            android:name=".modificarDatos"
+            android:label="Modificar Datos" />
+        <activity
+            android:name=".perfil"
+            android:label="Perfil" />
+        <activity
+            android:name=".Menu"
+            android:label="Menú" />
+        <activity
+            android:name=".crearCuenta"
+            android:label="Crear cuenta" />
+        <activity
+            android:name=".InicioSesion"
+            android:label="Inicio de sesión" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
